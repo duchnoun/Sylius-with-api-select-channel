@@ -52,6 +52,10 @@ final class UploadProductImageAction
 //        /** @var ResourceInterface|AdminUserInterface $owner */
 //        dd($ownerIri);
 
+        // TODO : duchnoun
+        // _channel_code << ?
+        // context ?
+        // debug !
         $owner = $this->iriConverter->getItemFromIri($ownerIri); // Voir pourquoi le channel est prit en compte ?
         Assert::isInstanceOf($owner, ProductInterface::class);
 //
