@@ -47,6 +47,9 @@ class ProductImageNormalizer implements ContextAwareNormalizerInterface, Normali
 
         $data = $this->normalizer->normalize($object, $format, $context);
 
+        if (!isset($data['path']))
+            return $data ;
+
         return $this->resolvePath($data);
     }
 

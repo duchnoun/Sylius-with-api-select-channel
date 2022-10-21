@@ -7,21 +7,33 @@
     <class name="Sylius\Component\Core\Model\ProductImage">
         <attribute name="id">
             <group>admin:product_image:read</group>
+            <group>admin:product_image:create</group>
+            <group>admin:product_image:update</group>
             <group>shop:product_image:read</group>
             <group>admin:product:read</group>
+            <group>admin:product:create</group>
+            <group>admin:product:update</group>
             <group>shop:product:read</group>
         </attribute>
         <attribute name="path">
             <group>admin:product_image:read</group>
+            <group>admin:product_image:create</group>
+            <group>admin:product_image:update</group>
             <group>shop:product_image:read</group>
             <group>admin:product:read</group>
             <group>shop:product:read</group>
+            <group>admin:product:create</group>
+            <group>admin:product:update</group>
         </attribute>
         <attribute name="type">
             <group>admin:product_image:read</group>
+            <group>admin:product_image:create</group>
+            <group>admin:product_image:update</group>
             <group>shop:product_image:read</group>
             <group>admin:product:read</group>
             <group>shop:product:read</group>
+            <group>admin:product:create</group>
+            <group>admin:product:update</group>
         </attribute>
     </class>
 </serializer>
