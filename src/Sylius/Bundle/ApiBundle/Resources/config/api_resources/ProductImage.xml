@@ -32,9 +32,9 @@
                                             <attribute name="type">string</attribute>
                                             <attribute name="format">binary</attribute>
                                         </attribute>
-                                        <attribute name="owner">
+                                        <attribute name="code">
                                             <attribute name="type">string</attribute>
-                                            <attribute name="format">iri-reference (product iri)</attribute>
+                                            <attribute name="format">product code</attribute>
                                         </attribute>
                                     </attribute>
                                 </attribute>

@@ -36,6 +36,7 @@
             <argument type="service" id="sylius.repository.product_image" />
             <argument type="service" id="sylius.image_uploader" />
             <argument type="service" id="api_platform.iri_converter" />
+            <argument type="service" id="sylius.repository.product" />
         </service>
 
         <service id="Sylius\Bundle\ApiBundle\Controller\GetProductBySlugAction" public="true">
