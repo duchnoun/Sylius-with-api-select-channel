@@ -19,6 +19,7 @@
 
             <collectionOperation name="admin_post">
                 <attribute name="method">POST</attribute>
+                <attribute name="path">/admin/product-images</attribute>
                 <attribute name="controller">Sylius\Bundle\ApiBundle\Controller\UploadProductImageAction</attribute>
                 <attribute name="deserialize">false</attribute>
                 <attribute name="openapi_context">
@@ -59,6 +60,7 @@
 
             <itemOperation name="admin_delete">
                 <attribute name="method">DELETE</attribute>
+                <attribute name="path">/admin/product-images</attribute>
             </itemOperation>
 
 
