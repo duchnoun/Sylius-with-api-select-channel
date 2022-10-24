@@ -19,6 +19,7 @@
                 </attribute>
             </collectionOperation>
 
+
             <collectionOperation name="admin_post">
                 <attribute name="method">POST</attribute>
                 <attribute name="path">/admin/taxon_translation</attribute>

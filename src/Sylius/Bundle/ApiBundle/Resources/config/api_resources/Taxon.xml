@@ -24,6 +24,7 @@
                 </attribute>
             </collectionOperation>
 
+
             <collectionOperation name="shop_get">
                 <attribute name="method">GET</attribute>
                 <attribute name="path">/shop/taxons</attribute>
