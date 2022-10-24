@@ -18,6 +18,17 @@
                     </attribute>
                 </attribute>
             </collectionOperation>
+
+            <collectionOperation name="admin_post">
+                <attribute name="method">POST</attribute>
+                <attribute name="path">/admin/taxon_translation</attribute>
+                <attribute name="denormalization_context">
+                    <attribute name="groups">admin:taxon_translation:create</attribute>
+                </attribute>
+                <attribute name="normalization_context">
+                    <attribute name="groups">admin:taxon_translation:create</attribute>
+                </attribute>
+            </collectionOperation>
         </collectionOperations>
 
         <itemOperations>

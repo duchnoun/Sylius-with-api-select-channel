@@ -15,6 +15,19 @@
                     <attribute name="groups">admin:product_taxon:read</attribute>
                 </attribute>
             </collectionOperation>
+
+            <collectionOperation name="admin_post">
+                <attribute name="method">POST</attribute>
+                <attribute name="path">/admin/product-taxons</attribute>
+                <attribute name="denormalization_context">
+                    <attribute name="groups">admin:product_taxon:create</attribute>
+                </attribute>
+                <attribute name="normalization_context">
+                    <attribute name="groups">admin:product_taxon:create</attribute>
+                </attribute>
+            </collectionOperation>
+
+
         </collectionOperations>
 
         <itemOperations>
