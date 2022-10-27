@@ -68,16 +68,16 @@
         <property name="description" required="true" />
         <property name="children" readableLink="false" />
         <property name="translations" readable="true" writable="true">
-<!--            <attribute name="openapi_context">-->
-<!--                <attribute name="type">object</attribute>-->
-<!--                <attribute name="example">-->
-<!--                    <attribute name="en_US">-->
-<!--                        <attribute name="name">string</attribute>-->
-<!--                        <attribute name="description">string</attribute>-->
-<!--                        <attribute name="locale">string</attribute>-->
-<!--                    </attribute>-->
-<!--                </attribute>-->
-<!--            </attribute>-->
+            <attribute name="openapi_context">
+                <attribute name="type">object</attribute>
+                <attribute name="example">
+                    <attribute name="en_US">
+                        <attribute name="name">string</attribute>
+                        <attribute name="description">string</attribute>
+                        <attribute name="locale">string</attribute>
+                    </attribute>
+                </attribute>
+            </attribute>
         </property>
     </resource>
 </resources>
