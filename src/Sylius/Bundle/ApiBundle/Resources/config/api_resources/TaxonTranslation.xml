@@ -22,7 +22,7 @@
 
             <collectionOperation name="admin_post">
                 <attribute name="method">POST</attribute>
-                <attribute name="path">/admin/taxon_translation</attribute>
+                <attribute name="path">/admin/taxon-translations</attribute>
                 <attribute name="denormalization_context">
                     <attribute name="groups">admin:taxon_translation:create</attribute>
                 </attribute>
@@ -58,6 +58,7 @@
 
         <property name="id" identifier="true" writable="false" />
         <property name="name" required="true" />
+        <property name="locale" required="true" writable="true" />
         <property name="slug" required="true" />
         <property name="description" required="false" />
     </resource>

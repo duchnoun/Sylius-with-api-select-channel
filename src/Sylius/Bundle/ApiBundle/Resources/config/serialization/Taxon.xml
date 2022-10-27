@@ -17,18 +17,41 @@
         </attribute>
         <attribute name="name">
             <group>shop:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>admin:taxon:update</group>
         </attribute>
         <attribute name="slug">
             <group>shop:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>admin:taxon:update</group>
         </attribute>
         <attribute name="description">
             <group>shop:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>admin:taxon:update</group>
         </attribute>
         <attribute name="translations">
             <group>admin:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>admin:taxon:update</group>
+        </attribute>
+        <attribute name="locale">
+            <group>admin:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>admin:taxon:update</group>
         </attribute>
         <attribute name="children">
             <group>shop:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>admin:taxon:update</group>
+        </attribute>
+        <attribute name="currentLocale">
+            <group>admin:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>shop:taxon:read</group>
+            <group>admin:taxon_translation:create</group>
+            <group>admin:taxon_translation:read</group>
+            <group>shop:taxon_translation:read</group>
         </attribute>
     </class>
 </serializer>
