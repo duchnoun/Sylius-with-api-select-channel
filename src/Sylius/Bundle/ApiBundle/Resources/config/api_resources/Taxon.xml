@@ -65,6 +65,7 @@
         <property name="name" required="true" />
         <property name="slug" required="true" />
         <property name="currentLocale" required="true" />
+        <property name="locale" required="true" />
         <property name="description" required="true" />
         <property name="children" readableLink="false" />
         <property name="translations" readable="true" writable="true">

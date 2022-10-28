@@ -19,10 +19,5 @@
             <group>admin:product_taxon:read</group>
             <group>shop:product_taxon:read</group>
         </attribute>
-        <attribute name="locale">
-            <group>admin:product_taxon:create</group>
-            <group>admin:product_taxon:read</group>
-            <group>shop:product_taxon:read</group>
-        </attribute>
     </class>
 </serializer>

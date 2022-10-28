@@ -35,5 +35,13 @@
             <group>admin:taxon_translation:read</group>
             <group>shop:taxon_translation:read</group>
         </attribute>
+        <attribute name="locale">
+            <group>admin:taxon:read</group>
+            <group>admin:taxon:create</group>
+            <group>shop:taxon:read</group>
+            <group>admin:taxon_translation:create</group>
+            <group>admin:taxon_translation:read</group>
+            <group>shop:taxon_translation:read</group>
+        </attribute>
     </class>
 </serializer>
